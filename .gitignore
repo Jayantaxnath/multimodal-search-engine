@@ -1,0 +1,61 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# others
+.others
+others/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (large files)
+models/
+backend/models/
+**/.locks/
+**/.no_exist/
+*.safetensors
+*.bin
+*.pt
+*.onnx
+*.incomplete
+
+# Runtime / temp
+*.log
+*.tmp
+*.bak
+outputs/
+checkpoints/
+cache/
+
+# Build outputs
+dist/
+build/
+
+# Local pipeline checkpoints
+pipelines/**/upload_checkpoint.txt
+
+# Optional: ignore local datasets
+data/
