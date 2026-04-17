@@ -1,0 +1,7 @@
+# Multimodal Search Pipeline
+
+[ PART 1: DATA INGESTION ]
+Raw Images ──> CLIP Image Encoder ──> Image Embeddings ──> MongoDB Vector Index
+
+[ PART 2: SEARCH RETRIEVAL ]
+User Query (Text or Image) ──> CLIP Encoder ──> MongoDB Vector Search ──> Similar Images Retrieved
