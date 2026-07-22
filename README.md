@@ -6,6 +6,8 @@ A production-style image search engine that lets users query a 31,000+ image dat
 
 📦 **Stack:** FastAPI · CLIP (ViT-B/32) · MongoDB Atlas Vector Search · BM25 · Docker
 
+<img width="1919" height="973" alt="Screenshot 2026-07-22 164117" src="https://github.com/user-attachments/assets/e73c9a50-b86f-406a-970b-3d9ac00e2481" />
+
 ---
 
 ## Overview
