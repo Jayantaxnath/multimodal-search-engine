@@ -2,7 +2,7 @@
 
 A production-style image search engine that lets users query a 31,000+ image dataset using **text** or **image** inputs, powered by OpenAI CLIP embeddings and a hybrid lexical + dense retrieval pipeline.
 
-🔗 **Live Demo:** Deployed on [Hugging Face Spaces](https://huggingface.co/spaces) via Docker
+🔗 **Live Demo:** Deployed on [Hugging Face Spaces](https://jayanta2025-image-retrieval-system.static.hf.space/index.html) via Docker
 
 📦 **Stack:** FastAPI · CLIP (ViT-B/32) · MongoDB Atlas Vector Search · BM25 · Docker
 
@@ -54,6 +54,7 @@ Benchmarked across **600 evaluation queries**, including distorted-image robustn
 ```
 ├── api/                  # FastAPI application & routes
 ├── benchmark/            # Evaluation scripts & results
+├── frontend/             # Frontend using HTML,CSS and JS
 ├── generate_embedding/   # CLIP embedding generation pipeline
 ├── hf_image_upload/      # Image hosting/upload utilities
 ├── Images/               # Sample/reference images
