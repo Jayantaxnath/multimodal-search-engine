@@ -1,0 +1,43 @@
+NOTE: It is CPU inference; GPU deployment would reduce this significantly
+
+TEXT -> IMAGE (200 queries)
+  p50_latency_ms: 169.45
+  p95_latency_ms: 385.77
+  p99_latency_ms: 1122.85
+  mean_latency_ms: 221.56
+  MRR: 0.9562
+  recall@1: 0.92
+  recall@5: 1.0
+  recall@10: 1.0
+
+IMAGE -> IMAGE (200 queries) : Exact Duplicate
+  p50_latency_ms: 2662.95
+  p95_latency_ms: 3714.71
+  p99_latency_ms: 4994.9
+  mean_latency_ms: 2777.73
+  MRR: 1.0
+  recall@1: 1.0
+  recall@5: 1.0
+  recall@10: 1.0
+
+
+IMAGE -> IMAGE (proxy/robustness) (200 queries) : Light distortion
+  p50_latency_ms: 2573.12
+  p95_latency_ms: 3058.15
+  p99_latency_ms: 4718.74
+  mean_latency_ms: 2669.36
+  MRR: 0.99
+  recall@1: 0.985
+  recall@5: 0.995
+  recall@10: 0.995
+
+
+IMAGE -> IMAGE (proxy/robustness) (200 queries) : Heavy distortion
+  p50_latency_ms: 2700.35
+  p95_latency_ms: 3809.88
+  p99_latency_ms: 4615.4
+  mean_latency_ms: 2830.71
+  MRR: 0.8481
+  recall@1: 0.815
+  recall@5: 0.895
+  recall@10: 0.92
