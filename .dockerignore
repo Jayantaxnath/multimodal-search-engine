@@ -1,0 +1,27 @@
+venv/
+__pycache__/
+*.pyc
+data/
+notebooks/
+.git/
+.env
+.gitignore
+.dockerignore
+*.pyo
+.env.*
+
+# miscellaneus
+autocomplete/
+benchmark/
+generate_embedding/
+hf_image_upload/
+Images/
+models/
+mongoDB/
+benchmark.md
+dock-help-cmd
+
+*.log
+.DS_Store
+.vscode/
+.idea/

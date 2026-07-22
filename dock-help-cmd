@@ -1,0 +1,18 @@
+# build the image
+docker build -t image-retrieval-system .
+
+# run it, passing your .env file in
+docker run -p 8000:8000 --env-file .env image-retrieval-system
+
+# run detached (background)
+docker run -d -p 7860:7860 --env-file .env --name irs image-retrieval-system
+
+# view logs
+docker logs -f irs
+
+# stop / remove
+docker stop irs
+docker rm irs
+
+# rebuild after code changes (uses cache if requirements.txt unchanged)
+docker build -t image-retrieval-system .
