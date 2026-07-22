@@ -1,0 +1,19 @@
+No of unique ids: 31783
+
+Their Frequencies:
+1000092795.jpg 5
+10002456.jpg 5
+1000268201.jpg 5
+1000344755.jpg 5
+1000366164.jpg 5
+1000523639.jpg 5
+1000919630.jpg 5
+10010052.jpg 5
+1001465944.jpg 5
+1001545525.jpg 5
+...31k+ more
+
+Found 31783 JPG images...
+Image Size: 4416361027 bytes, Caption size: 10515535 bytes
+Image Size: 4211.77 MB, Caption size: 10.03 MB
+Average size: 0.13 MB
