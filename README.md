@@ -4,11 +4,9 @@ A production-style image search engine that lets users query a 31,000+ image dat
 
 🔗 **Live Demo:** Deployed on [Hugging Face Spaces](https://jayanta2025-image-retrieval-system.static.hf.space/index.html) via Docker
 
+<img width="1919" height="973" alt="Screenshot 2026-07-22 164117" src="Images\web-view\home page query.png" />
+
 📦 **Stack:** FastAPI · CLIP (ViT-B/32) · MongoDB Atlas Vector Search · BM25 · Docker
-
-<img width="1919" height="973" alt="Screenshot 2026-07-22 164117" src="https://github.com/user-attachments/assets/e73c9a50-b86f-406a-970b-3d9ac00e2481" />
-
----
 
 ## Overview
 
